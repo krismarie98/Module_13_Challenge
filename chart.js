@@ -79,11 +79,11 @@ function buildCharts(sample) {
     var barData = [{
       x: sampleValues.slice(0,10).reverse(),
       y: yticks,
-      type: "barS"}
+      type: "bar"}
     ];
     // 9. Create the layout for the bar chart. 
     var barLayout = {
-      title : "Top 10 otu_ids"
+      title : "Top 10 Bacteria Cultures Found"
      
     };
     // 10. Use Plotly to plot the data with the layout. 
